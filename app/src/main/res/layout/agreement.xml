@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvAgreementMarker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:text="@string/app_name"
+        android:textColor="@color/textWhite"
+        android:textSize="36dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvAgreementMarker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/agreementMarker"
+        android:textColor="@color/textWhite"
+        android:textSize="22dp" />
+
+    <CheckBox
+        android:id="@+id/chBoxAgree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAgreementMarker"
+        android:layout_centerInParent="true"
+        android:outlineSpotShadowColor="@color/textWhite"
+        android:text="@string/agreeAllowed"
+        android:textColor="@color/textWhite" />
+
+    <TextView
+        android:id="@+id/btnGetStarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="100dp"
+        android:hint="@string/agreementButton"
+        android:textColorHint="#8e8e8e"
+        android:textSize="32dp" />
+</RelativeLayout>

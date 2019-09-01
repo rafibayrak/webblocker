@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">Web Site Blocker</string>
+    <string name="app_name" translatable="false">Web Site Blocker</string>
+    <string name="title_activity" translatable="false">ActivityMain</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+    <string name="agreementButton">Get Started</string>
+    <string name="agreementMarker">Do you accept the agreement?</string>
+    <string name="agreeAllowed">I agree</string>
+    <string name="continueButton">Continue</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="iora_enable">Iora Enable</string>
+    <string name="iora_disable">Iora Disable</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment1</string>
+    <string name="hello_blank_fragment2">Hello blank fragment2</string>
 </resources>

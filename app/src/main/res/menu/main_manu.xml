@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnEnableDisable"
+        android:title="Iora Disable"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/switch_enable_disable"
+        android:title="Iora"
+        android:checkable="true"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.Switch" />
+    <item
+        android:id="@+id/btnSettings"
+        android:title="Settings"
+        />
+    <item
+        android:id="@+id/btnRate"
+        android:title="Rate"
+        />
+    <item
+        android:id="@+id/btnShare"
+        android:title="Share"
+        />
+    <item
+        android:id="@+id/btnAbout"
+        android:title="About"
+        />
+    <item
+        android:id="@+id/btnContactUs"
+        android:title="Contact Us"
+        />
+</menu>
